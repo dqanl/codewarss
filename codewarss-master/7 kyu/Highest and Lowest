@@ -1,0 +1,7 @@
+function highAndLow(numbers) {
+  //turn the string into an array
+  //use the Math.max and Math.min operators combined with the spread opertors
+  const cee = numbers.split(" ");
+
+  return `${Math.max(...cee)} ${Math.min(...cee)}`;
+}
